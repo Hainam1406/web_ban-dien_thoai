@@ -1,0 +1,85 @@
+:root {
+	--whirte-color: #fff;
+	--
+}
+
+* {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: inherit;
+}
+
+html {
+	font-family: sans-serif;
+	/* font-size: 62.5%; */
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.gird	{
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.product-list h2:hover a,
+.product-wid-item h2:hover a,
+ul.products li.product a:hover h3  {
+	color: #ee5057;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+}
+
+a {
+    color: #ee5057;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+.wid-view-more:hover,
+ .add_to_cart_button:hover,
+input[type="submit"]:hover,
+button[type=submit]:hover,
+.quantity input.plus:hover,
+.quantity input.minus:hover {
+    color: #fff;
+    background-color: #222;
+}
+
+.footer-menu ul li:hover a,
+ .single-shop-product h2 a:hover,
+ .product-breadcroumb a:hover,
+ .single-sidebar ul li a:hover,
+ .product-inner-category a:hover,
+ .payment_method_paypal a:hover {
+    color: #17a78b;
+    text-decoration: underline;
+}
+
+.thubmnail-recent > h2 a:hover {
+    color: #222;
+    text-decoration: underline;
+}

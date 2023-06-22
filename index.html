@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/base.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<title>Home</title>
+</head>
+<body>
+	<div id="main">
+		<!-- header -->
+		<div id="header">
+			<!-- header user -->
+			<div class="header-menu">
+				<div class="header-area gird">
+					<div class="header-left">
+						<div class="header-user">
+							<ul class="user-menu">
+								<li>
+									<a href="register.php"><i class="fa-solid fa-user"></i> Register
+									</a>
+								</li>
+								<li>
+									<a href="login.php"><i class="fa-solid fa-user"></i> Login
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="header-right">
+						<div class="language">
+							<ul class="language-menu">
+								<li>
+									<a href="#">
+										<span>Language :</span>
+										<span>
+										English <i class="fa-solid fa-caret-down"></i>
+										</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- header logo -->
+			<div class="header-branding">
+				<div class="header-logo gird">
+					<div class="logo">
+						<a href="index.html">LOGO</a>
+					</div>
+					<div class="shoping">
+						<div class="shoping-item">
+							<a href="cart.html">
+								Cart -
+								<span class="cart-amunt">$100</span>
+								<i class="fa-solid fa-cart-shopping"></i>
+								<span class="product-count">5</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<!-- header navbar -->
+			<div class="header-navbar">
+				<div class="navbar-menu gird">
+					<ul class="navbar-list">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="shop.html">Shop page</a></li>
+						<li><a href="single-product.html">Single product</a></li>
+						<li><a href="cart.html">Cart</a></li>
+						<li><a href="checkout.html">Checkout</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- ////// -->
+		<div id="slider">
+			<!-- slider -->
+			<div class="block-slider gird">
+				<div class="slider-area">
+			        <ul class="slider-home">
+			            <li class="home-1">
+			              <img src="assets/images/h4-slide.png" alt="ảnh slide">
+			              <div class="caption-group">
+			                <h2 class="caption-title">
+			                  iPhone 
+			                  <span class="caption-primary">6  <strong>Plus</strong></span>
+			                  
+			                </h2>
+			                <h4 class="caption-subtitle">Dual SIM</h4>
+			                <a class="caption-button">
+			                  <span class="caption-icon">
+			                  	<i class="fa fa-angle-right"></i>
+			                  </span>
+			                  Shop now
+			                </a>
+			              </div>
+			            </li>
+			        </ul>
+			        <ul class="slider-home">
+			            <li class="home-1">
+			              <img src="assets/images/h4-slide2.png" alt="ảnh slide">
+			              <div class="caption-group">
+			                <h2 class="caption-title">
+			                  by one, get one
+			                  <span class="caption-primary">50%<strong>off</strong></span>
+			                  
+			                </h2>
+			                <h4 class="caption-subtitle">school supplies & backpacks.*</h4>
+			                <a class="caption-button"href="#">
+			                  <span class="caption-icon">
+			                  	<i class="fa fa-angle-right"></i>
+			                  </span>
+			                  Shop now
+			                </a>
+			              </div>
+			            </li>
+			        </ul>
+			        <ul class="slider-home">
+			            <li class="home-1">
+			              <img src="assets/images/h4-slide3.png" alt="ảnh slide">
+			              <div class="caption-group">
+			                <h2 class="caption-title">
+			                  Apple
+			                  <span class="caption-primary">Store <strong>Ipod</strong></span>
+			                  
+			                </h2>
+			                <h4 class="caption-subtitle">Select Item</h4>
+			                <a class="caption-button"href="#">
+			                  <span class="caption-icon">
+			                  	<i class="fa fa-angle-right"></i>
+			                  </span>
+			                  Shop now
+			                </a>
+			              </div>
+			            </li>
+			        </ul>
+			        <ul class="slider-home">
+			            <li class="home-1">
+			              <img src="assets/images/h4-slide4.png" alt="ảnh slide">
+			              <div class="caption-group">
+			                <h2 class="caption-title">
+			                  Apple
+			                  <span class="caption-primary">Store <strong>Ipod</strong></span>
+			                  
+			                </h2>
+			                <h4 class="caption-subtitle">& Phone</h4>
+			                <a class="caption-button"href="#">
+			                  <span class="caption-icon">
+			                  	<i class="fa fa-angle-right"></i>
+			                  </span>
+			                  Shop now
+			                </a>
+			              </div>
+			            </li>
+			        </ul>
+			          <!-- //////// -->
+			        <div class="bx-controls-pager">
+			            <!-- pager -->
+			            <div class="bx-pager">
+			              <div class="bx-pager-item" onclick="currentSlide(1)">
+			                <a data-slide-index="0" class="bx-pager-link">1</a>
+			              </div>
+			              <div class="bx-pager-item" onclick="currentSlide(2)">
+			                <a data-slide-index="1" class="bx-pager-link">2</a>
+			              </div>
+			              <div class="bx-pager-item" onclick="currentSlide(3)">
+			                <a data-slide-index="2" class="bx-pager-link">3</a>
+			              </div>
+			              <div class="bx-pager-item" onclick="currentSlide(4)">
+			                <a data-slide-index="3" class="bx-pager-link">4</a>
+			              </div>
+			            </div>
+			            <!-- controls -->
+			            <div class="bx-controls">
+			              <a class="bx-prev" onclick="plusSlides(-1)">
+			                <i class="fa fa-angle-left" ></i>
+			              </a>
+			              <a class="bx-next" onclick="plusSlides(1)">
+			                <i class="fa fa-angle-right"></i>
+			              </a>
+			            </div>
+			       	</div>
+	        	</div>
+			</div>
+		</div>
+		<!-- container -->
+		<div id="container">
+			<div class="promo-area">
+				<div class="single-promo gird">
+					<div class="promo-item promo1">
+						<i class="fa-solid fa-arrows-rotate"></i>
+						<p>30 Days return</p>
+					</div>
+					<div class="promo-item promo2">
+						<i class="fa-solid fa-truck"></i>
+						<p>Free shipping</p>
+					</div>
+					<div class="promo-item promo3">
+						<i class="fa-solid fa-lock"></i>
+						<p>Secure payments</p>
+					</div>
+					<div class="promo-item promo4">
+						<i class="fa-solid fa-gift"></i>
+						<p>New products</p>
+					</div>
+				</div>
+			</div>
+			<!-- content -->
+			<div class="content">
+				<div class="maincontent-area gird">
+					<!-- product -->
+					<div class="latest-product">
+						<h2 class="section-title">Latest Products</h2>
+						<div class="product-carousel">
+							<div class="owl-conntrols">
+								<div class="prev">prev</div>
+								<div class="next">next</div>
+							</div>
+							<div class="product-list">
+								<div class="product-item">
+									<div class="product-img">
+										<img src="assets/images/product-1.jpg" alt="San pham 1">
+										<div class="product-hover">
+											<a href="cart.html" class="add-to-cart-link">
+												<i class="fa-solid fa-cart-shopping"></i>
+										 		Add to cart
+											</a>
+											<a href="cart.html" class="view-details-link">
+												<i class="fa-solid fa-link"></i>
+										 		See details
+											</a>
+										</div>
+									</div>
+								</div>
+								<h2>
+									<a href="cart.html">Samsung Galaxy s5- 2015</a>
+								</h2>
+								<div class="product-price">
+									<ins>$700.00</ins>
+									<del>$100.00</del>
+								</div>
+							</div>
+							<div class="product-list">
+								<div class="product-item">
+									<div class="product-img">
+										<img src="assets/images/product-2.jpg" alt="San pham 2">
+										<div class="product-hover">
+											<a href="cart.html" class="add-to-cart-link">
+												<i class="fa-solid fa-cart-shopping"></i>
+										 		Add to cart
+											</a>
+											<a href="cart.html" class="view-details-link">
+												<i class="fa-solid fa-link"></i>
+										 		See details
+											</a>
+										</div>
+									</div>
+								</div>
+								<h2>
+									<a href="cart.html">Nokia Lumia 1320</a>
+								</h2>
+								<div class="product-price">
+									<ins>$700.00</ins>
+									<del>$100.00</del>
+								</div>
+							</div>
+							<div class="product-list">
+								<div class="product-item">
+									<div class="product-img">
+										<img src="assets/images/product-3.jpg" alt="San pham 3">
+										<div class="product-hover">
+											<a href="cart.html" class="add-to-cart-link">
+												<i class="fa-solid fa-cart-shopping"></i>
+										 		Add to cart
+											</a>
+											<a href="cart.html" class="view-details-link">
+												<i class="fa-solid fa-link"></i>
+										 		See details
+											</a>
+										</div>
+									</div>
+								</div>
+								<h2>
+									<a href="cart.html">LG Leon 2015</a>
+								</h2>
+								<div class="product-price">
+									<ins>$700.00</ins>
+									<del>$100.00</del>
+								</div>
+							</div>
+							<div class="product-list">
+								<div class="product-item">
+									<div class="product-img">
+										<img src="assets/images/product-4.jpg" alt="San pham 4">
+										<div class="product-hover">
+											<a href="cart.html" class="add-to-cart-link">
+												<i class="fa-solid fa-cart-shopping"></i>
+										 		Add to cart
+											</a>
+											<a href="cart.html" class="view-details-link">
+												<i class="fa-solid fa-link"></i>
+										 		See details
+											</a>
+										</div>
+									</div>
+								</div>
+								<h2>
+									<a href="cart.html">Sony microsoft</a>
+								</h2>
+								<div class="product-price">
+									<ins>$700.00</ins>
+									<del>$100.00</del>
+								</div>
+							</div>
+							<div class="product-list">
+								<div class="product-item">
+									<div class="product-img">
+										<img src="assets/images/product-5.jpg" alt="San pham 5">
+										<div class="product-hover">
+											<a href="cart.html" class="add-to-cart-link">
+												<i class="fa-solid fa-cart-shopping"></i>
+										 		Add to cart
+											</a>
+											<a href="cart.html" class="view-details-link">
+												<i class="fa-solid fa-link"></i>
+										 		See details
+											</a>
+										</div>
+									</div>
+								</div>
+								<h2>
+									<a href="cart.html">iPhone 6</a>
+								</h2>
+								<div class="product-price">
+									<ins>$700.00</ins>
+									<del>$100.00</del>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- brands-area -->
+			<div class="brands-area">
+				<div class="list-brands gird">
+					<div class="owl-conntrols">
+						<div class="prev">prev</div>
+						<div class="next">next</div>
+					</div>
+					<div class="brands-item">
+						<img src="assets/images/brand1.png" alt="">
+					</div>
+					<div class="brands-item">
+						<img src="assets/images/brand2.png" alt="">
+					</div>
+					<div class="brands-item">
+						<img src="assets/images/brand3.png" alt="">
+					</div>
+					<div class="brands-item">
+						<img src="assets/images/brand4.png" alt="">
+					</div>
+				</div>
+			</div>
+			<!-- product-widget-area -->
+			<div class="product-widget">
+				<div class="widget-area gird">
+					<div class="product-wid-list">
+						<h2 class="product-wid-title">Top Sellers</h2>
+						<a href="#" class="wid-view-more">View All</a>
+						<!-- //// -->
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-1.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-2.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-3.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+					</div>
+					<!-- //// -->
+					<div class="product-wid-list">
+						<h2 class="product-wid-title">Recently Viewed</h2>
+						<a href="#" class="wid-view-more">View All</a>
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-4.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-1.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-2.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+					</div>
+					<!-- //// -->
+					<div class="product-wid-list">
+						<h2 class="product-wid-title">Top New</h2>
+						<a href="#" class="wid-view-more">View All</a>
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-3.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-4.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+						<div class="product-wid-item">
+							<a href="#"><img src="assets/images/product-thumb-1.jpg" alt=""></a>
+							<h2><a href="#">Sony Smart TV - 2015</a></h2>
+							<div class="product-wid-rating">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<div class="product-price">
+								<ins>$400.00</ins>
+								<del>$425.00</del>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<div id="footer">
+			<div class="footer-list1 gird">
+				<div class="footer-top">
+					<div class="footer-about">
+						<h2>u<span>Stora</span></h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis sunt id doloribus vero quam laborum quas alias dolores blanditiis iusto consequatur, modi aliquid eveniet eligendi iure eaque ipsam iste, pariatur omnis sint! Suscipit, debitis, quisquam. Laborum commodi veritatis magni at?</p>
+						<div class="footer-social">
+							<a href="#">
+								<i class="fa-brands fa-facebook-f"></i>
+							</a>
+							<a href="#">
+								<i class="fa-brands fa-twitter"></i>
+							</a>
+							<a href="#">
+								<i class="fa-brands fa-youtube"></i>
+							</a>
+							<a href="#">
+								<i class="fa-brands fa-linkedin-in"></i>
+							</a>
+						</div>
+					</div>
+					<div class="footer-menu">
+	                    <h2 class="footer-wid-title">User Navigation </h2>
+	                    <ul>
+	                        <li><a href="#">My account</a></li>
+	                        <li><a href="#">Order history</a></li>
+	                        <li><a href="#">Wishlist</a></li>
+	                        <li><a href="#">Vendor contact</a></li>
+	                        <li><a href="#">Front page</a></li>
+	                    </ul>                        
+	                </div>
+					<div class="footer-menu">
+	                    <h2 class="footer-wid-title">Categories</h2>
+	                    <ul>
+	                        <li><a href="#">Mobile Phone</a></li>
+	                        <li><a href="#">Home accesseries</a></li>
+	                        <li><a href="#">LED TV</a></li>
+	                        <li><a href="#">Computer</a></li>
+	                        <li><a href="#">Gadets</a></li>
+	                    </ul>                        
+	                </div>
+					<div class="footer-newsletter">
+	                    <h2 class="footer-wid-title">Newsletter</h2>
+	                    <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
+	                    <div class="newsletter-form">
+	                        <form action="#">
+	                            <input type="email" placeholder="Type your email">
+	                            <input type="submit" value="Subscribe">
+	                        </form>
+	                    </div>
+	                </div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-list2">
+				<div class="footer-bottom gird">
+					<div class="copyright">
+                        <p>© 2015 uCommerce. All Rights Reserved. </p>
+                    </div>
+                    <div class="footer-card-icon">
+                        <i class="fa-brands fa-cc-discover"></i>
+                        <i class="fa-brands fa-cc-mastercard"></i>
+                        <i class="fa-brands fa-cc-paypal"></i>
+                        <i class="fa-brands fa-cc-visa"></i>
+                    </div>
+				</div>
+			</div>
+		</div>
+
+		<!-- link javascript -->
+		<script src="assets/js/app.js"></script>>
+</body>
+</html>
